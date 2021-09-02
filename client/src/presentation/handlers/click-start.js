@@ -2,6 +2,7 @@
 
 export const clickStartHandler = () => {
   // console.log('hello');
+  let state;
   state.currentQuestion = 0;
   for (let i = 0; i < state.questions.length; i++) {
     // we loop through all questions
@@ -12,5 +13,4 @@ export const clickStartHandler = () => {
       answerOfQuestion.selected = false;
     }
   }
-
 };
