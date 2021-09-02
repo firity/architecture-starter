@@ -1,5 +1,9 @@
 body {
   background-image: url('/architecture/quiz-app-g3/architecture-starter/client/assets/JS-quiz.jpeg');
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .header {
   background-color: rgba(255, 165, 0, 0.84);
@@ -16,11 +20,11 @@ h2 {
 .label1 {
   background-color: rgba(248, 171, 71, 0.84);
   position: absolute;
-  width: 300px;
-  height: 200px;
+  width: 250px;
+  height: 150px;
   margin-left: 0px;
-  margin-top: 80px;
-  padding: 80px 0px;
+  margin-top: 60px;
+  padding: 90px 0px;
   text-align: center;
 }
 
@@ -30,7 +34,50 @@ h2 {
 }
 span {
   font-size: 20px;
+  line-height: 40px;
 }
 h3 {
   font-size: 35px;
+  margin-top: -25%;
+}
+.expr0 {
+  background: rgba(248, 171, 71, 0.84);
+  border: 5px solid #FFFFFF;
+  width: 200px;
+  height: 65px;
+  padding: 80px 0px;
+  border-radius: 150%;
+ margin-left: 1000px;
+ margin-top: 2%;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  text-align: center;
+  margin-top: 0%;
+}
+
+.circle1 {
+  border: 5px solid #FFFFFF;
+  position: absolute;
+  width: 25px;
+  padding: 20px;
+  border-radius: 50%;
+  right: -15px;
+  bottom: 23px;
+  margin-right: 20%;
+  margin-bottom: 20%;
+}
+
+.circle2 {
+  border: 5px solid #FFFFFF;
+  position: absolute;
+  width: 5px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  right: -60px;
+  bottom: 5px;
+  margin-right: 30%;
+  margin-bottom: 20%;
 }
