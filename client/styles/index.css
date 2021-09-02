@@ -42,13 +42,13 @@ h3 {
 }
 .expr0 {
   background: rgba(248, 171, 71, 0.84);
-  border: 5px solid #FFFFFF;
+  border: 5px solid #ffffff;
   width: 200px;
   height: 65px;
   padding: 80px 0px;
   border-radius: 150%;
- margin-left: 1000px;
- margin-top: 2%;
+  margin-left: 1000px;
+  margin-top: 2%;
 }
 
 p {
@@ -59,7 +59,7 @@ p {
 }
 
 .circle1 {
-  border: 5px solid #FFFFFF;
+  border: 5px solid #ffffff;
   position: absolute;
   width: 25px;
   padding: 20px;
@@ -71,7 +71,7 @@ p {
 }
 
 .circle2 {
-  border: 5px solid #FFFFFF;
+  border: 5px solid #ffffff;
   position: absolute;
   width: 5px;
   padding: 10px 15px;
