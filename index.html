@@ -6,39 +6,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Javascript Quiz! </title>
   <link rel="stylesheet" href="/client/styles/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="header">
-    <h2>Javascript Quiz!</h2>
+    
+    <form>
+        <div class="header">
+            <h1>Javascript Quiz!</h1>
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+      </div>
+    </form>
+    
+    
+    
+ <div class="container">
+     <span class="animation-span"></span>
+     <span class="animation-span"></span>
+     <span class="animation-span"></span>
+     <span class="animation-span"></span>
+
+     <div class="home">
+        
+        <form><h2>LEVEL</h2>
+        <label>
+            
+            <input type="radio" value="beginner" name="level"> 
+            <span>Beginner</span>
+            <input type="radio" value="intermediate" name="level">
+            <span>Intermediate</span>
+            <input type="radio" value="advanced" name="level">
+            <span>Advanced</span>
+        </label>
+       <br><br>
+        Instruction:<ul>
+            <li>There will be 10 questions</li>
+            <li>Only one answer can be selected</li>
+            <li>At the end of the quiz, your score will be displayed</li>
+        </ul>
+        <br>
+        <label>
+        <button class="start-button">START</button>
+        </label>
+       
+    </form>
+     </div>
+
+ </div>
+ <div class="expr0">
+    <p>Let's play with <BR>JAVASCRIPT</p>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
   </div>
-  <div class=" taskA-1">
-    <div class="label1">
-      <h3>Levels</h3> 
-   <form>
-    <label>
-      <span>Beginner</span>
-      <input class="check" type="checkbox" name="beginner []" value="beginner">
-    </label>
-    <br>
-    <label>
-      <span>Intermediate</span>
-      <input class="check" type="checkbox" name="Intermediate []" value="Intermediate">
-    </label>
-    <br>
-    <label>
-      <span>Advanced</span>
-      <input class="check" type="checkbox" name="Advanced []" value="Advanced">
-    </label> <br>
-    <button class="btn-str" type="Start">Start</button>       
-   </form>
-    </div>
-   <div class="expr0">
-     <p>Let's play with Javascript</p>
-     <div class="circle1"></div>
-     <div class="circle2"></div>
-   </div>
-   <div class="quiz"></div>
-    </div>
- 
+
 </body>
 </html>
