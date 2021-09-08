@@ -1,159 +1,159 @@
 body {
-	font-family: 'Lato', sans-serif;
-	background-color: rgb(234, 240, 220);
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(234, 240, 220);
 }
 h1,
 h3,
 ul,
 p {
-	text-align: center;
-	margin: auto;
-	padding: auto;
+  text-align: center;
+  margin: auto;
+  padding: auto;
 }
 
 label {
-	display: block;
-	padding: 5px;
-	font-size: 25px;
+  display: block;
+  padding: 5px;
+  font-size: 25px;
 }
 ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 .start-button {
-	font-size: 30px;
-	width: auto;
-	height: 5%;
-	overflow: hidden;
-	background-color: rgb(105, 190, 155);
-	border: none;
-	border-radius: 2px;
+  font-size: 30px;
+  width: auto;
+  height: 5%;
+  overflow: hidden;
+  background-color: rgb(105, 190, 155);
+  border: none;
+  border-radius: 2px;
 }
 .start-button:hover {
-	opacity: 2px;
-	background-color: rgba(174, 212, 149, 0.84);
+  opacity: 2px;
+  background-color: rgba(174, 212, 149, 0.84);
 }
 .start-button:active {
-	background-color: #8ad478;
-	box-shadow: 0 5px rgb(141, 206, 57);
-	transform: translateY(4px);
+  background-color: #8ad478;
+  box-shadow: 0 5px rgb(141, 206, 57);
+  transform: translateY(4px);
 }
 
 .container {
-	text-align: center;
-	vertical-align: middle;
-	box-shadow: rgb(96, 102, 68)0px 10px 30px 0px;
-	transform: translate(0%, 50%);
-	background-color: rgba(204, 240, 209, 0.767);
-	margin: auto;
-	width: 60%;
-	height: 70%;
-	padding: 20px 20px 20px 20px;
-	color: black;
-	overflow: hidden;
-	border-radius: 6px;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: rgb(96, 102, 68) 0px 10px 30px 0px;
+  transform: translate(0%, 50%);
+  background-color: rgba(204, 240, 209, 0.767);
+  margin: auto;
+  width: 60%;
+  height: 70%;
+  padding: 20px 20px 20px 20px;
+  color: black;
+  overflow: hidden;
+  border-radius: 6px;
 
-	z-index: 2;
+  z-index: 2;
 }
 
 /*Animation*/
 .container .animation-span:nth-child(1) {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 2px;
-	background: linear-gradient(to right, rgb(219, 206, 20), rgb(163, 219, 182));
-	animation: animate1 2s linear infinite;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, rgb(219, 206, 20), rgb(163, 219, 182));
+  animation: animate1 2s linear infinite;
 }
 @keyframes animate1 {
-	0% {
-		transform: translateX(-100%);
-	}
-	100% {
-		transform: translateX(-0%);
-	}
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(-0%);
+  }
 }
 .container .animation-span:nth-child(2) {
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 2px;
-	height: 100%;
-	background: linear-gradient(to right, rgb(219, 206, 20), rgb(163, 219, 182));
-	animation: animate2 2s linear infinite;
-	animation-delay: 1s;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to right, rgb(219, 206, 20), rgb(163, 219, 182));
+  animation: animate2 2s linear infinite;
+  animation-delay: 1s;
 }
 
 @keyframes animate2 {
-	0% {
-		transform: translateY(-100%);
-	}
-	100% {
-		transform: translateY(-0%);
-	}
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(-0%);
+  }
 }
 
 .container .animation-span:nth-child(3) {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 2px;
-	background: linear-gradient(to right, rgb(219, 206, 20), rgb(163, 219, 182));
-	animation: animate3 2s linear infinite;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, rgb(219, 206, 20), rgb(163, 219, 182));
+  animation: animate3 2s linear infinite;
 }
 @keyframes animate3 {
-	0% {
-		transform: translateX(-0%);
-	}
-	100% {
-		transform: translateX(-100%);
-	}
+  0% {
+    transform: translateX(-0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 .container .animation-span:nth-child(4) {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 2px;
-	height: 100%;
-	background: linear-gradient(to right, rgb(219, 206, 20), rgb(163, 219, 182));
-	animation: animate4 2s linear infinite;
-	animation-delay: 1s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to right, rgb(219, 206, 20), rgb(163, 219, 182));
+  animation: animate4 2s linear infinite;
+  animation-delay: 1s;
 }
 @keyframes animate4 {
-	0% {
-		transform: translateY(-0%);
-	}
-	100% {
-		transform: translateY(-100%);
-	}
+  0% {
+    transform: translateY(-0%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
 }
 /*Animation end*/
 
 .header {
-	transform: translate(0%, 140%);
-	font-size: 25px;
-	text-align: center;
-	background-color: rgba(245, 157, 76, 0.84);
-	box-shadow: rgb(214, 224, 170)0px 10px 20px 0px;
-	width: 100%;
-	height: 100%;
-	border-radius: 50%;
-	animation: change-color-animation 4s infinite;
+  transform: translate(0%, 140%);
+  font-size: 25px;
+  text-align: center;
+  background-color: rgba(245, 157, 76, 0.84);
+  box-shadow: rgb(214, 224, 170) 0px 10px 20px 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  animation: change-color-animation 4s infinite;
 }
 
 /*header animation */
 @keyframes change-color-animation {
-	0% {
-		background-color: gba(245, 157, 76, 0.84);
-	}
-	50.0% {
-		background-color: rgb(241, 231, 185);
-	} /* your chosen 'mid' color */
-	100.0% {
-		background-color: gba(245, 157, 76, 0.84);
-	}
+  0% {
+    background-color: gba(245, 157, 76, 0.84);
+  }
+  50.0% {
+    background-color: rgb(241, 231, 185);
+  } /* your chosen 'mid' color */
+  100.0% {
+    background-color: gba(245, 157, 76, 0.84);
+  }
 }
 /*
 .expr0 {
