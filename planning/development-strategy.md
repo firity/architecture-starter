@@ -467,6 +467,7 @@ Custom Events.
   - nextQuestionClick.js
     - Import nextQuestion from nextQuestion.js (handler)
     - Document.getElementById('').addEventListener(‘click’, nextQuestion);
+  
 ---
 ## 5. end of the quiz
 
