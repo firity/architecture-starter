@@ -7,4 +7,4 @@ import { initializeState } from '../../business-logic/initialize-state.js';
 export const initializeApp = async () => {
   // this works! you will only need to change the name of the .json file
   await initializeState();
-}
+};

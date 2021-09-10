@@ -11,18 +11,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+  
     <form>
         <div class="header">
-            <h1>Javascript Quiz!</h1>
-        <div class="circle1"></div>
-        <div class="circle2"></div>
+            <h1>Javascript Quiz!</h1> 
       </div>
     </form>
     
-    
-    
- <div class="container">
+ <div class="container" id="container">
      <span class="animation-span"></span>
      <span class="animation-span"></span>
      <span class="animation-span"></span>
@@ -30,16 +26,16 @@
 
      <div class="home">
         
-        <form>
+        <form id="form1">
         <h2>TEST YOURSELF</h2>
-        Instruction:<ul>
+        <p>Instruction:</p><ul id="ul">
             <li>There will be 10 questions</li>
             <li>Only one answer can be selected</li>
             <li>At the end of the quiz, your score will be displayed</li>
         </ul>
         <br>
         <label>
-        <button class="start-button">START</button>
+        <button type='button' id= "start-button" class="start-button">START</button>
         </label>
        
     </form>
@@ -53,5 +49,6 @@
     <div class="circle2"></div>
   </div>
 -->
+<script type="module" src="./client/src/presentation/init/index.js"></script>
 </body>
 </html>
