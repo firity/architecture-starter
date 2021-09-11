@@ -16,12 +16,12 @@
 					"selected": false
 				},
 				{
-					"text": "let name = \"Tim\";",
+					"text": "let name;",
 					"correct": true,
 					"selected": false
 				},
 				{
-					"text": "var name = \"Tim\";",
+					"text": "var  = \"Tim\";",
 					"correct": true,
 					"selected": false
 				}
@@ -70,6 +70,270 @@
 				{
 					"text": "MDN",
 					"url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof"
+				}
+			]
+		},
+		{
+			"question": "How many values can take a Boolean?",
+			"answered": false,
+			"answers": [
+				{
+					"text": "two values: true and false",
+					"correct": true,
+					"selected": false
+				},
+				{
+					"text": "one value: boolean",
+					"correct": false,
+					"selected": false
+				},
+				{
+					"text": "four values: true, false, if and else",
+					"correct": false,
+					"selected": false
+				},
+				{
+					"text": "three values: true, false and if",
+					"correct": false,
+					"selected": false
+				}
+			],
+			"links": [
+				{
+					"text": "w3schools.com",
+					"url": "https://www.w3schools.com/js/js_booleans.asp"
+				}
+			]
+		},
+		{
+			"question": "What is an Array?",
+			"answered": false,
+			"answers": [
+				{
+					"text": "An array is a series of element",
+					"correct": false,
+					"selected": false
+				},
+				{
+					"text": "An array is a series of elements of the same type in contiguous memory locations",
+					"correct": true,
+					"selected": false
+				},
+				{
+					"text": "An array is an element of the different type",
+					"correct": false,
+					"selected": false
+				},
+				{
+					"text": "An array is a series of elements of the same type placed in non-contiguous memory locations",
+					"correct": false,
+					"selected": false
+				}
+			],
+			"links": [
+				{
+					"text": "w3schools.com",
+					"url": "https://www.w3schools.com/js/js_arrays.asp"
+				},
+				{
+					"text": "javatpoint",
+					"url": "https://www.javatpoint.com/array-in-java"
+				}
+			]
+		},
+		{
+			"question": "Which of the following accesses the seventh element stored in array",
+			"answered": false,
+			"answers": [
+				{
+					"text": "array[7];",
+					"correct": false,
+					"selected": false
+				},
+				{
+					"text": "array(7);",
+					"correct": false,
+					"selected": false
+				},
+				{
+					"text": "array;",
+					"correct": false,
+					"selected": false
+				},
+				{
+					"text": "array[6];",
+					"correct": true,
+					"selected": false
+				}
+			],
+			"links": [
+				{
+					"text": "w3schools.com",
+					"url": "https://www.w3schools.com/js/js_arrays.asp"
+				},
+				{
+					"text": "javatpoint",
+					"url": "https://www.javatpoint.com/array-in-java"
+				}
+			]
+		},
+		{
+			"question": "What is the index number of the last element of an array with 9 elements?'",
+			"answered": false,
+			"answers": [
+				{
+					"text": "Programmer-defined",
+					"correct": false,
+					"selected": false
+				},
+				{
+					"text": "9",
+					"correct": false,
+					"selected": false
+				},
+				{
+					"text": "8",
+					"correct": true	,
+					"selected": false
+				},
+				{
+					"text": "5",
+					"correct": false,
+					"selected": false
+				}
+			],
+			"links": [
+				{
+					"text": "w3schools.com",
+					"url": "https://www.w3schools.com/js/js_arrays.asp"
+				}
+			]
+		},
+		{
+			"question": "which 3 methods can extracting a string parts?",
+			"answered": false,
+			"answers": [
+				{
+					"text": "It doesn't exist methods",
+					"correct": false,
+					"selected": false
+				},
+				{
+					"text": "Map (): method",
+					"correct": false,
+					"selected": false
+				},
+				{
+					"text": "slice(start, end), substring(start, end) and substr(start, length)",
+					"correct": true,
+					"selected": false
+				},
+				{
+					"text": "no answer is correct",
+					"correct": true,
+					"selected": false
+				}
+			],
+			"links": [
+				{
+					"text": "w3schools.com",
+					"url": "https://www.w3schools.com/js/js_string_methods.asp"
+				}
+			]
+		},
+		{
+			"question": "JavaScript Can Change HTML Content",
+			"answered": false,
+			"answers": [
+				{
+					"text": "No",
+					"correct": false,
+					"selected": false
+				},
+				{
+					"text": "Yes with (addElement ())",
+					"correct": false,
+					"selected": false
+				},
+				{
+					"text": "Yes, with (document.createElement(tagName[, options]))",
+					"correct": false,
+					"selected": false
+				},
+				{
+					"text": "Yes, with (document.getElementById(tagId))",
+					"correct": true,
+					"selected": false
+				}
+			],
+			"links": [
+				{
+					"text": "w3schools.com",
+					"url": "https://www.w3schools.com/js/js_intro.asp"
+				}
+			]
+		},
+		{
+			"question": "What is a javascript function?",
+			"answered": false,
+			"answers": [
+				{
+					"text": "A javaScript function is a block of code designed to perform a particular task.",
+					"correct": true,
+					"selected": false
+				},
+				{
+					"text": "An array is a series of element",
+					"correct": false,
+					"selected": false
+				},
+				{
+					"text": "A javaScript function can be used to explain JavaScript code, and to make it more readable.",
+					"correct": false,
+					"selected": false
+				},
+				{
+					"text": "A javaScript function are used for storing and manipulating text.",
+					"correct": false,
+					"selected": false
+				}
+			],
+			"links": [
+				{
+					"text": "w3schools",
+					"url": "https://www.w3schools.com/js/js_functions.asp"
+				}
+			]
+		},
+		{
+			"question": "How many ways exists to declare a variable?",
+			"answered": false,
+			"answers": [
+				{
+					"text": "only one way (const)",
+					"correct": false,
+					"selected": false
+				},
+				{
+					"text": "only two ways (var and const)",
+					"correct": false,
+					"selected": false
+				},
+				{
+					"text": "three ways (const, let and var",
+					"correct": true,
+					"selected": false
+				},
+				{
+					"text": "function name () {}",
+					"correct": false,
+					"selected": false
+				}
+			],
+			"links": [
+				{
+					"text": "w3schools",
+					"url": "https://www.w3schools.com/js/js_functions.asp"
 				}
 			]
 		}
