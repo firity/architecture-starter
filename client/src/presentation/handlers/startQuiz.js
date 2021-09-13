@@ -1,8 +1,8 @@
-import { questions } from '../../business-logic/getQuestion.js';
+import { getQuestions } from '../../data-access/getQuestion.js';
 
 export const start = () => {
   const indexOfQuestion = 0;
-  const allQuestions = questions();
+  const allQuestions = getQuestions();
   document.getElementById('start-button').style.display = 'none';
   document.getElementById('ul').style.display = 'none';
   document.getElementById('container').style.margin = '-80px auto auto auto';

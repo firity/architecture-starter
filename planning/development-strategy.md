@@ -26,12 +26,11 @@
 
 ## 1. Initialize the home page
 
-**a user can see whole home page with instructions**
-**a user can read instructions for the quiz**
-**a user can know how many questions are in the quiz.**
-**a user will be able to choose the level of difficulty for the test as: Easy, Medium, Hard**
-**a user can see their score at the end of the quiz**
-**a user can see how far they are through the quiz in the top of the page will show up the remaining amount of questions**
+**The user can see whole home page with instructions**
+
+**The user can read instructions for the quiz**
+
+**The user can know how many questions are in the quiz.**
 
 - _acceptance criteria_
 - _acceptance criteria_
@@ -133,6 +132,8 @@ Custom Events.
 ## 3. selection
 
 **a user can select only one answer for the current question**
+**a user can see how far they are through the quiz in the top of the page will show up the remaining amount of questions**
+
 
 - _acceptance criteria_
 - _acceptance criteria_
