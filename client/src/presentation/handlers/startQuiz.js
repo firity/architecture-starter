@@ -1,4 +1,5 @@
-import { getQuestions } from '../../data-access/getQuestion.js';
+import { getQuestions } from '../../business-logic/getQuestion.js';
+import{createNextButton} from '../components/nextBtn.js';
 
 export const start = () => {
   const indexOfQuestion = 0;
@@ -27,10 +28,5 @@ export const start = () => {
     createNextButton();
   });
 
-  const createNextButton = () => {
-    var next = document.createElement('BUTTON');
-    next.innerHTML = 'NEXT';
-    next.classList.add('buttonNext');
-    form1.appendChild(next);
-  };
+ 
 };
