@@ -1,6 +1,16 @@
+import{save}  from '../data-access/save.js'
 
+export  const checkAnswers =  (answers =[]) => {
+    for (let i = 0; i < answers.length; i++) {
+        const answerU = answers[i];
 
-export const checkAnswers = () =>{
-    console.log ('hello from business');
+        if (answerU.correct === true &&
+            answerU.selected === true) {
+            return true
+        } else{
+            return false
+        }
+    } return save (answers)
 }
-checkAnswers()
+
+

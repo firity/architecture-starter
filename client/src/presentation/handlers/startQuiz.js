@@ -2,7 +2,8 @@ import { getQuestions } from '../../business-logic/getQuestion.js';
 import{createNextButton} from '../components/nextBtn.js';
 
 export const start = () => {
-  const indexOfQuestion = 0;
+  let indexOfQuestion = 0;
+  indexOfQuestion++;
   const allQuestions = getQuestions();
   document.getElementById('start-button').style.display = 'none';
   document.getElementById('ul').style.display = 'none';
@@ -11,7 +12,7 @@ export const start = () => {
   allQuestions.then((val) => {
     document.querySelector('h2').innerHTML =
       'Question   ' +
-      (indexOfQuestion + 1) +
+      (indexOfQuestion) +
       '/' +
       Object.keys(val['questions']).length;
     document.querySelector('p').innerHTML =

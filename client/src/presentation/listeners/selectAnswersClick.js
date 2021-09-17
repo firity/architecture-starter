@@ -1,6 +1,6 @@
 import {selectAnswer} from '../handlers/selectAnswers.js'
 
 export const answer = () =>{
-    console.log ('hello from listener');
+    document.querySelector('html').addEventListener('click', selectAnswer);
 }
 answer()

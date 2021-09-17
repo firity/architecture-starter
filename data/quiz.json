@@ -8,7 +8,7 @@
 				{
 					"text": "const name = \"Tim\";",
 					"correct": true,
-					"selected": false
+					"selected": true
 				},
 				{
 					"text": "name = \"Tim\";",
@@ -17,12 +17,12 @@
 				},
 				{
 					"text": "let name;",
-					"correct": true,
+					"correct": false,
 					"selected": false
 				},
 				{
 					"text": "var  = \"Tim\";",
-					"correct": true,
+					"correct": false,
 					"selected": false
 				}
 			],
@@ -49,7 +49,7 @@
 				{
 					"text": "returns a string describing the type of a value",
 					"correct": true,
-					"selected": false
+					"selected": true
 				},
 				{
 					"text": "determines if a value is primitive",
@@ -80,7 +80,7 @@
 				{
 					"text": "two values: true and false",
 					"correct": true,
-					"selected": false
+					"selected": true
 				},
 				{
 					"text": "one value: boolean",
@@ -117,7 +117,7 @@
 				{
 					"text": "An array is a series of elements of the same type in contiguous memory locations",
 					"correct": true,
-					"selected": false
+					"selected": true
 				},
 				{
 					"text": "An array is an element of the different type",
@@ -163,7 +163,7 @@
 				{
 					"text": "array[6];",
 					"correct": true,
-					"selected": false
+					"selected": true
 				}
 			],
 			"links": [
@@ -194,7 +194,7 @@
 				{
 					"text": "8",
 					"correct": true	,
-					"selected": false
+					"selected": true
 				},
 				{
 					"text": "5",
@@ -231,7 +231,7 @@
 				{
 					"text": "no answer is correct",
 					"correct": true,
-					"selected": false
+					"selected": true
 				}
 			],
 			"links": [
@@ -263,7 +263,7 @@
 				{
 					"text": "Yes, with (document.getElementById(tagId))",
 					"correct": true,
-					"selected": false
+					"selected": true
 				}
 			],
 			"links": [
@@ -280,7 +280,7 @@
 				{
 					"text": "A javaScript function is a block of code designed to perform a particular task.",
 					"correct": true,
-					"selected": false
+					"selected": true
 				},
 				{
 					"text": "An array is a series of element",
@@ -322,7 +322,7 @@
 				{
 					"text": "three ways (const, let and var",
 					"correct": true,
-					"selected": false
+					"selected": true
 				},
 				{
 					"text": "function name () {}",
