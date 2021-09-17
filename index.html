@@ -1,26 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>project!</title>
-
-    <link href="./client/styles/index.css" rel="stylesheet" />
-  </head>
-  <body>
-    <div id="user-interface">
-      <div id="input-root"></div>
-      <hr />
-      <div class="side-by-side">
-        <div id="unsorted"></div>
-        <div id="sorted"></div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript Quiz! </title>
+  <link rel="stylesheet" href="./client/styles/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+    <form>
+        <div class="header">
+            <h1>Javascript Quiz!</h1> 
       </div>
-    </div>
+    </form>
+    
+ <div class="container" id="container">
+     <span class="animation-span"></span>
+     <span class="animation-span"></span>
+     <span class="animation-span"></span>
+     <span class="animation-span"></span>
 
-    <script
-      type="module"
-      src="./client/src/presentation/init/index.js"
-    ></script>
-  </body>
+     <div class="home">
+        
+        <form id="form1">
+        <h2>TEST YOURSELF</h2>
+        <p>Instruction:</p><ul id="ul">
+            <li>There will be 10 questions</li>
+            <li>Only one answer can be selected</li>
+            <li>At the end of the quiz, your score will be displayed</li>
+        </ul>
+        <br>
+        <label>
+        <button type='button' id= "start-button" class="start-button">START</button>
+        </label>
+       
+    </form>
+     </div>
+
+ </div>
+ <!--
+ <div class="expr0">
+    <p>Let's play with <BR>JAVASCRIPT</p>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+  </div>
+-->
+<script type="module" src="./client/src/presentation/init/index.js"></script>
+</body>
 </html>
